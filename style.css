@@ -1,0 +1,37 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .btn {
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 100% auto;
+    color: white;
+    border-radius: 4px;
+   }
+  .btn:hover {
+    background-position: right center; 
+  }
+  
+  .btn {
+    background-image: linear-gradient(to right, #074d1c 0%, #127205 51%, #0f9221 100%);
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  
